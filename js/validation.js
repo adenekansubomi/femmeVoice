@@ -1,28 +1,4 @@
-// const formDataArray = [];
 
-
-
-// document.getElementById('register').addEventListener('click', function() {
-//     const user = document.getElementById('user').value;
-//     const email = document.getElementById('email').value;
-//     const pass = document.getElementById('pass').value;
-//     const cpass = document.getElementById('cpass').value;
-
-//     const formData = {
-//         user: user,
-//         email: email,
-//         pass: pass,
-//         cpass: cpass
-//     };
-
-//     formDataArray.push(formData);
-
-//     console.log(formDataArray);
-// });
-
-// const {formDataArray} = require('./post');
-
-// validation.js
 document.getElementById('loginButton').addEventListener('click', function() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
@@ -55,6 +31,6 @@ document.getElementById('loginButton').addEventListener('click', function() {
         // do alert for when they enter wrong username  
 
         alert("wrong username or password");
-        return;
+       
     }
 });
