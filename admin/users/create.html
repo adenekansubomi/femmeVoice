@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e27439523e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/43.1.0/ckeditor5.css">
+</head>
+<body>
+    <header>
+        <div class="nav_logo" width="200">
+            <img src="../../images/femme voice logo.fw.png" alt="">
+        </div>
+        <i class="fa-solid fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../about2.html">About</a></li>
+            <li><a href="../../blog.html">Blog</a></li>
+            <!-- <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li> -->
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    Subomi
+                    <i class="fa-solid fa-chevron-down size" ></i>
+                </a>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="logout">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <div class="admin-wrapper">
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="../posts/index.html">Manage Posts</a></li>
+                <li><a href="index.html">Manage Users</a></li>
+                <li><a href="../topics/index.html">Manage Topics</a></li>
+            </ul>
+        </div>
+        <div class="admin-content">
+            <div class="button_group">
+                <a class="btn btn-big" href="create.html" >Add User</a>
+                <a class="btn btn-big" href="index.html" >Manage Users</a>
+            </div>
+
+            <div class="content">
+                <h2 class="page-title">Add User</h2>
+
+                <form action="create.html" method="post">
+                    <div></div>
+                    <div>
+                        <div>
+                            <button type="button" class="btn">Add Topic</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "ckeditor5": "https://cdn.ckeditor.com/ckeditor5/43.1.0/ckeditor5.js",
+                "ckeditor5/": "https://cdn.ckeditor.com/ckeditor5/43.1.0/"
+            }
+        }
+    </script>
+    <script type="module">
+        import {
+            ClassicEditor,
+            Essentials,
+            Paragraph,
+            Bold,
+            Italic,
+            Font
+        } from 'ckeditor5';
+        ClassicEditor
+            .create( document.querySelector( '#body' ), {
+                plugins: [ Essentials, Paragraph, Bold, Italic, Font ],
+                toolbar: [
+                    'undo', 'redo', '|', 'bold', 'italic', '|',
+                    'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor'
+                ]
+            } )
+            .then( editor => {
+                window.editor = editor;
+            } )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+    <!-- A friendly reminder to run on a server, remove this during the integration. -->
+    <script>
+        window.onload = function() {
+            if ( window.location.protocol === 'file:' ) {
+                alert( 'This sample requires an HTTP server. Please serve this file with a web server.' );
+            }
+        };
+    </script>    <script src="../../js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/harmbug.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <title>FemmiVoice</title>
+</head>
+<body>
+    <header class="home_header">
+        <nav class="home_navbar">
+            <div class="d-flex justify-content-between container-fluid">
+                 <!-- LOGO -->
+                <div class="nav_logo" width="200">
+                    <img src="images/femme voice logo.fw.png" alt="">
+                </div>
+                
+                <!-- LINKS -->
+                <ul class="nav_links mt-1">
+                    <li><a class="hover-3" href="index.html">Home</a></li> 
+                    <li><a class="hover-3" href="blog.html">Blog</a></li>
+                    <li><a class="hover-3" href="about2.html">About</a></li>
+                    <li><a class="hover-3" href="contact.html">Contact</a></li>
+                    <li><a class="hover-3" href="signUp.html">Sign Up</a></li>
+                </ul>
+                <div class="harmbuger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="articles" id="article-container">
+
+        <button class="btn btn-primary mb-2 ms-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Check out all the articles</button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">SignUp for more</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="">
+                <div class="">
+                  <div class="blog_side_card p-4 mb-3 bg-body-tertiary rounded">
+                    <h4 class="fst-italic">About</h4>
+                    <p class="mb-0">We believe that change starts with conversation. We invite you to join us in this journey—share your thoughts, engage with our content, and be part of a community that values respect, inclusivity, and empowerment. Thank you for being here. Together, we can make a difference.</p>
+                  </div>
+        
+                  <div>
+                    <h4 class="fst-italic">Recent posts</h4>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                          <img src="images/feminism blog1.fw.png" alt="" class="bd-placeholder-img" width="100" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+                          <div class="col-lg-8">
+                            <h6 class="mb-0">Ever wondered what feminism is all about?</h6>
+                            <small class="text-body-secondary">January 15, 2024</small>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                          <img src="images/feminism blog4.fw.png" alt="" class="bd-placeholder-img" width="100" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+                          <div class="col-lg-8">
+                            <h6 class="mb-0">How a 'feminist' policy would change the world</h6>
+                            <small class="text-body-secondary">January 15, 2024</small>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                          <img src="images/feminism blog3.fw.png" alt="" class="bd-placeholder-img" width="100" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+                          <div class="col-lg-8">
+                            <h6 class="mb-0">Five things bees can teach us about feminism</h6>
+                            <small class="text-body-secondary">January 15, 2024</small>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+        
+                  <div class="p-4">
+                    <h4 class="fst-italic">List of all Articles</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="article.html?article-id=article-1" class="article_links" data-article-id="article-1">The 10 Most Feminist Countries...</a></li>
+                        <li><a href="article.html?article-id=article-2" class="article_links" data-article-id="article-2">5 Extraordinary Women in Nigeria...</a></li>
+                        <li><a href="article.html?article-id=article-3" class="article_links" data-article-id="article-3">Shocking Facts About Gender...</a></li>
+                        <li><a href="article.html?article-id=article-4" class="article_links" data-article-id="article-4">Ever wondered what feminism...</a></li>
+                        <li><a href="article.html?article-id=article-5" class="article_links" data-article-id="article-5">Why do we need still feminism...</a></li>
+                        <li><a href="article.html?article-id=article-6" class="article_links" data-article-id="article-6">Five things bees can teach...</a></li>
+                        <li><a href="article.html?article-id=article-7" class="article_links" data-article-id="article-7">How a 'feminist' policy...</a></li>
+                        <li><a href="article.html?article-id=article-8" class="article_links" data-article-id="article-8">13 Feminist Protests in...</a></li>
+                        <li><a href="article.html?article-id=article-9" class="article_links" data-article-id="article-9">'Feminism' Is The Word Of The Year...</a></li>
+                        <li><a href="article.html?article-id=article-10" class="article_links" data-article-id="article-10">17 of the Best Quotes About Feminism...</a></li>
+                        <li><a href="article.html?article-id=article-11" class="article_links" data-article-id="article-11">Nearly Half of British Girls Call Themselves Feminists: Survey</a></li>
+                        <li><a href="article.html?article-id=article-12" class="article_links" data-article-id="article-12">This Is What a Feminist 'Good Place' Looks Like</a></li>
+                    </ol>
+                  </div>
+        
+                  <div class="p-4">
+                    <h4 class="fst-italic">Elsewhere</h4>
+                    <ol class="list-unstyled">
+                      <li><a href="#">Instagram</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Facebook</a></li>
+                    </ol>
+                  </div>
+                </div>
+                
+              </div>
+        </div>
+        </div>
+
+        <!-- ARTICLES -->
+        <article id="article-1" article-content="1" class="art1" data-topic="Technology">
+            <h1 class="ms-4">The 10 Most Feminist <br> Countries In The World</h1>
+            <h5 class="ms-4">In Sweden, a country close to achieving gender parity, <br> 46% of people consider themselves feminists</h5>
+            <div class="artimg">
+                <img  src="images/article1 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>The most self-identifying feminists live in Sweden, France, Italy, Britain, Australia, the US, Turkey, Denmark, Mexico, and Germany. But people who live in countries that are further along in achieving gender equality don’t necessarily consider themselves feminists, according to a new survey.</p>
+                <p>The YouGov-Cambridge Globalism Project polled 25,000 people in 23 countries, the Guardian reports. To assess attitudes toward gender, equal rights, and the #MeToo movement, participants answered questions about whether or not they consider themselves feminists, and if catcalling is acceptable.</p>
+                <p>In Sweden, 46% of people who responded to the poll consider themselves feminists, with France behind at nearly 30% — and over 25% of people in Italy and Britain. Sweden is often used as an example of a country close to achieving gender parity, due to its equal public health care, education, job opportunities, and generous parental leave policies. Sweden has nearly closed its wage gap between men and women (women get 88% of men’s wages).</p>
+                <p>In contrast, despite ranking as the best country for women in 2016, neighboring Denmark ranked as of the least feminist nations in the developed world. More Danish women are happy to be catcalled than would call themselves feminists and 35% disapprove of the #MeToo movement, according to the survey. One-third of Danish women say catcalling is acceptable, which is the highest proportion than in any other country than Nigeria. </p>
+                <p>Antonia Kirkland, global lead on legal equality and access to justice at the organization Equality Now, told Global Citizen she was really surprised to see Denmark so far down on the list.</p>
+                <p>“Considering that Denmark is one of just six economies in the world according to the World Bank in which women and men have equal legal rights, perhaps it's not so surprising after all,” Kirkland explained.</p>
+                <p>“There is less urgency seen perhaps in Denmark for a feminist movement than in a place like the United States which lacks even a basic guarantee of equality in its constitution and feminists are still having to mobilize for an Equal Rights Amendment,” Kirkland said.</p>
+                <p>Danes might tolerate low-level sexual harassment because they believe the behavior should be excused, Rikke Andreassen, professor of communication studies at Roskilde University, told the Guardian. Andreassen has conducted research on the #MeToo movement and found that Danish media has covered the issue in the media in culture and opinion sections, with very few men accused. Politicians in Denmark have also argued sexual harassment only affects Muslims living in the country, according to Andreassen. </p>
+                <p>There are many other reasons why people who live in countries close to achieving gender equality still might not identify as feminists. The BBC published a report on the topic in February by Dr. Christina Scharff, a senior lecturer in culture, media, and creative industries at King's College London. Scharff found that in Europe and the US, where there’s recently been increased attention to feminists movements, some women do not feel the term “feminist” speaks to them. </p>
+                <p>Antiquated stereotypes about feminists might deter people from associating with the term. Race plays a part as well. Shcarff noted that three-quarters of all women in one poll said that the feminist movement has done "a lot" to improve the lives of white women, which might prevent non-white women from associating with the term. Feminism is also likely to appeal to working-class women but those from lower-income backgrounds are just as likely to support equal rights. </p>
+                <h5>The top 10 countries where people label themselves feminists</h5>
+                <ol>
+                    <li>Sweden</li>
+                    <li>France</li>
+                    <li>Italy</li>
+                    <li>Britain</li>
+                    <li>Australia</li>
+                    <li>US</li>
+                    <li>Turkey</li>
+                    <li>Denmark</li>
+                    <li>Mexico</li>
+                    <li>Germany</li>
+                </ol>
+            </div>
+        </article>
+
+        <article id="article-2" class="art2" data-topic="Science">
+            <h1 class="ms-4">5 Extraordinary Women in Nigeria <br> Challenging the Status Quo</h1>
+            <h4 class="ms-4">These incredible women are challenging gender <br> stereotypes in male-dominated professions.</h4>
+            <div class="artimg">
+                <img  src="images/article2 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>In Nigeria, women are still getting the short end of the stick on most growth and developmental indices.</p>
+                <p>According to the International Parliamentary Union, for example, women make up less than 6% of Nigeria's parliament.</p>
+                <p>From 2010 to 2015, meanwhile, only 38% of federal employees in Nigeria were women on average, according to the National Bureau of Statistics. Nigeria also has the highest rate of maternal mortality in the world.</p>
+                <p>In celebration of International Women’s Day 2021, Global Citizen is highlighting five Nigerian women who #ChooseToChallenge the status quo and fight for a world where #SheIsEqual. </p>
+                <h5>1. Lois Auta</h5>
+                <em>A polio survivor and Nigeria’s first disabled legislative candidate.</em>
+                <p>Despite suffering from polio at age two — which permanently put her in a wheelchair — Auta has defied every barrier she’s faced as a woman living with a disability in Nigeria. </p>
+                <p>She is the founder of Cedar Seed Foundation, a nonprofit organisation advocating for the rights of people with disabilities in Nigeria. Auta was named Young Global Leader at the World Economic Forum (WEF) in 2017. </p>
+                <p>Taking it a step further, Auta ran for a seat in Nigeria’s lower legislative house in 2019, becoming the first person living with a disability to do so. </p>
+                <p>“I am an advocate of inclusive legislation. I am glad that the Persons with Disabilities Bill has been recently signed, which means we will have better access to infrastructure, health care, and transportation. If I win the elections, I will sponsor bills that provide an enabling environment for persons with disabilities, especially in the area of education. I will also ensure there is a 10% [reserved quotas] in every organization for graduates with a disability," she told the UN in 2019. </p>
+                <h5>2. Ngozi Okonjo-Iweala</h5>
+                <em>The first woman appointed to lead the World Trade Organisation (WTO).</em>
+                <p>Okonjo-Iweala is one of the few Black women who have given women representation on the biggest stages of global and national power. She twice served as Nigeria’s minister of finance, worked at the World Bank for more than 20 years, and served on the board of Gavi, the Vaccine Alliance. </p>
+                <p>Okonjo-Iweala became the first woman and the first African to serve as the world’s top trade official — the head of the World Trade Organization (WTO). She took office on March 1, following a 9-month selection process.</p>
+                <p>“Today, WTO Members are making history. For the first time in the 73 years of GATT and WTO, you are selecting a woman and an African as Director-General. This is groundbreaking and positive. I am grateful for the trust you have in me, not just as a woman and an African, but also in my knowledge, experience, and, as some of you have said, possessing the courage and passion to work with you to undertake the wide ranging reforms the WTO needs to reposition itself for the future,” she said in a statement after her confirmation as WTO head.</p>
+                <h5>3. Sandra Aguebor</h5>
+                <em>a.k.a. Lady Mechanic, Nigeria’s first female automotive mechanic.</em>
+                <p>With a 32-year career, 22 of which she has managed her own garage (Sandex Car Care Garage), Aguebor is challenging one of the biggest stereotypes in Nigerian society: that only men can fix cars. </p>
+                <p>“Becoming the first lady mechanic in Nigeria is not a bed of roses — men have been doing this for generations. The men thought I was crazy at first. I had to work five times harder than the men to prove myself,” she told CNN in 2020.</p>
+                <p>Inspired by her own experience, Aguebor founded the Lady Mechanic Initiative, which teaches at-risk women how to fix cars, gain skills, and become financially independent. She has trained more than 1,000 vulnerable women in five Nigerian states. </p>
+                <h5>4. Adenike Oyetunde</h5>
+                <em>A disability advocate and Senior Special Assistant to Lagos' state governor on Persons Living with Disabilities.</em>
+                <p>Adenike Oyetunde is a disability advocate, lawyer, media personality, author, social media influencer, and life coach. </p>
+                <p>After losing her right leg to bone cancer at the age of 20, Oyetunde’s life changed completely.  But she chose to challenge the barriers life in Nigeria threw at her. </p>
+                <p>She got a law degree, and she went on to grow a successful radio career, and started the Amputee United Initiative, an campaign that advocates for the rights of persons with disabilities. She also volunteers with the Irede Foundation, a nonprofit organisation that works with kids who have had amputations and provides them with prosthetic limbs.</p>
+                <p>“I am trying to teach people like myself, amputees, to love themselves because society does not accept them even though it is not their fault,” she told PUNCH in 2017. </p>
+                <p>Through her work, Oyetunde has been able to shed much-needed light on the challenges facing people with disabilities and last month she was appointed as a Special Assistant to the Lagos state governor on Persons Living with Disabilities (PLwB).</p>
+                <h5>5. Kafayat Sanni</h5>
+                <em>The first female fighter pilot in the Nigerian Airforce.</em>
+                <p>In 2019, at just 22 years old, Kafayat Sanni became the first female fighter pilot in the 55-year history of the Nigerian Air Force (NAF). She is also the first woman to go through regular combat training at the Nigerian Defence Academy (NDA) to be winged for a fixed wing fighter aircraft.</p>
+                <p>Sanni has also trained in the US and was named the overall best pilot at the NAF 401 Flying Training School, Kaduna State, in 2017. Talk about choosing to challenge the status quo! </p>
+                <p>“It was what I wanted to do. And I felt that everyone is not supposed to fold their arms and watch what is happening in our country. Everyone could always play their part,” she told ThisDay in 2019.  “So, I did not think there was any reason for me to think that it is not possible for me to actually fly the jet because there was no female that ever flew the jet. I believe I could achieve it and I did. It is a privilege for me to be winged as the first female fighter pilot in the Nigerian Air Force.” </p>
+                <p>Global Citizen celebrates the women who will continue to fight for a world where #SheIsEqual. You can join the movement to champion gender equality globally, alongside other core issues in tackling the COVID-19 pandemic and its wide-ranging impacts, by taking action here to support our Recovery Plan for the World campaign. </p>
+            </div>
+        </article>
+
+        <article id="article-3" class="art3" data-topic="Health">
+            <h1 class="ms-4">13 Shocking Facts About Gender <br> Inequality Around the World</h1>
+            <h4 class="ms-4">Achieving full gender equality is still <br> centuries away at current rates.</h4>
+            <div class="artimg">
+                <img  src="images/article3 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>The world is not on track to achieve gender equality by 2030. Try 2322. </p>
+                <p>That’s right. According to a report published by UN Women in September 2022, it could take close to 300 years to achieve full gender equality at the current rate of progress (read: too slow).</p>
+                <p>The global pandemic, conflict, the climate crisis, and a harsh backlash against women’s sexual and reproductive health and rights are further diminishing the outlook for gender equality. Violence against women remains high; global health, climate, and humanitarian crises have further increased risks of violence, especially for the most vulnerable women and girls; and women feel more unsafe than they did before the pandemic. </p>
+                <p>In countries as diverse as Afghanistan and the US, women and girls now have fewer rights than their mothers and grandmothers did. </p>
+                <p>In Afghanistan, the Taliban has banned women from attending secondary school and university, pushing the world further away from achieving UN Global Goal 5 for gender equality. Meanwhile in Iran, women and girls have been at the center of a nationwide uprising, demanding an end not only to hijab requirements but to the Islamic Republic itself. In the US, the Supreme Court voted to overturn Roe v. Wade, a landmark ruling that had safeguarded the right to abortion across the US. Since then, at least 13 states have banned abortion, meaning that Americans in these states with regressive anti-abortion laws now have fewer human rights protections than authoritarian regimes such as Saudi Arabia.</p>
+                <h4>Here are 13 shocking facts about the state of global gender inequality today.</h4>
+                <h5>1. Not a single country in the world has achieved gender equality.</h5>
+                <p>On a global level, there’s been little progress on gender equality since the Global Goals were signed in 2015.</p>
+                <p>A third of countries have made no progress since then, and of these, 18 countries have seen gender inequality worsen, with Venezuela, Afghanistan, Algeria, Belarus, Kuwait, and Ecuador the worst affected.</p>
+                <p>The worst countries for gender equality in 2022 were Sudan, Yemen, Afghanistan, and Chad. </p>
+                <p>South Sudan has some of the highest rates for forced marriage and maternal mortality. In Chad, child marriage is also widespread among girls, reducing girls’ education and resulting in one of the highest rates of early childbearing worldwide. Yemeni women cannot marry or receive health care without the permission of their male guardian and do not have equal rights to divorce or child custody. The legal system has few provisions for the protection of women who experience domestic and sexual violence — leaving some women vulnerable to becoming the victims of so-called honor killings.</p>
+                <p>Meanwhile in Afghanistan, UN experts revealed in March 2023 that 20 years of progress for women and girls’ rights have been erased since the Taliban’s takeover of the country. </p>
+                <p>While no country has yet achieved gender parity, the top nine countries (Iceland, Norway, Finland, New Zealand, Sweden, Germany, Nicaragua, Namibia, and Lithuania) have closed at least 80% of their gender gap, according to the World Economic Forum’s (WEF) annual Global Gender Gap report in 2023.</p>
+                <h5>2. Over 380 million women and girls are living in extreme poverty.</h5>
+                <p>That’s more than the entire population of the United States living on less than $1.90 a day.</p>
+                <p>Worse still, if current trends continue, more women and girls will live in extreme poverty in sub-Saharan Africa by 2030 than today. That is not the way we want the graph line to be turning.</p>
+                <p>Poverty is not gender-neutral. In fact, the majority of the world’s poor are women. Why? Poverty disproportionately affects women because they do not have as many opportunities as men to receive an education, work, or own property. </p>
+                <h5>3. Over 1.2 billion women and girls live in places where safe access to abortion is restricted.</h5>
+                <p>Access to abortion is a central part of sexual and reproductive health and rights (SRHR) — essential in the mission to achieve gender equality and end extreme poverty. </p>
+                <p>Yet, it remains illegal in several countries and restricted in many others, with over 1.2 billion women and girls of reproductive age (15-49) living in countries and areas where access to abortion is restricted, and 102 million living in places where abortion is prohibited altogether, according to UN Women.</p>
+                <p>Unsafe abortion is a leading but preventable cause of maternal mortality. An estimated 25 million unsafe abortions take place each year leading to the hospitalization of about 7 million women a year in developing countries, and up to 13.2% of maternal deaths globally.</p>
+                <p>The repercussions of unplanned pregnancies can also prevent women and girls from furthering their education and careers, with knock-on effects on their income. A study conducted in several countries in Africa including Kenya, Rwanda, and Uganda, for example, found that 56% of adolescent girls from hard-to-reach populations who had dropped out of school were currently or recently pregnant. </p>
+                <h5>4. 12 million girls under 18 are married each year.</h5>
+                <p>Child marriage is the formal (or informal) marriage of a child under the age of 18. Most often this is the marriage of a young girl to an older boy or man.</p>
+                <p>Child marriage is still prevalent in many parts of the world, and is exacerbated during humanitarian crises: be it conflicts, pandemics, or climate change, with girls from the poorest rural households suffering the most.</p>
+                <p>The UN report states that in 2021, nearly 1 in 5 women aged 20-24 were married before turning 18, from across communities. Girls from wealthy families in Bangladesh have been forced into marriages as children. Syrian refugee girls displaced by conflict have been married off before they were ready. American girls from Christian families have been victims of child marriage. And girls living in poverty in Myanmar have been married off to older men in China.</p>
+                <p>To eradicate child marriage by 2030, progress must be 17 times faster than progress of the previous decade.</p>
+                <h5>5. One woman or girl is killed by someone in her own family every 11 minutes. </h5>
+                <p>From the murder of Sarah Everard in the UK at the hands of a serving police officer to a 19-year-old set on fire after refusing her attacker’s advances in India, violence against women and girls is pervasive around the world.</p>
+                <p>But it’s not just violence at the hands of strangers that women and girls have to worry about, it’s those closest to them too. Globally, more than 1 in 10 women and girls aged 15-49 were subjected to sexual and/or physical violence by an intimate partner in 2021.</p>
+                <h5>6. There are more forcibly displaced women and girls than ever before.</h5>
+                <p>Some 44 million women and girls were forcibly displaced by the end of 2021 whether by climate change, war, conflict, or human rights violations — a record level.</p>
+                <p>For women, displacement isn’t the end of their problems, it’s only the beginning. They often lose their property, assets, livelihoods, and access to health care. It also exposes them to greater risks of violence, trafficking, and sexual abuse. </p>
+                <h5>7. 130 million girls remain out of school worldwide. </h5>
+                <p>Around the world, girls disproportionately miss out on education. A third of the world's poorest girls between 10 and 18 have never attended school, and in rural areas, 61% of girls do not attend secondary school.</p>
+                <p>The COVID-19 pandemic also resulted in more learning losses for girls than for boys, and an increased risk of facing child labor, gender-based violence, early marriage, and pregnancy.</p>
+                <p>Yet, girls’ education is integral to virtually every aspect of ending extreme poverty. When girls receive a quality education, every area of their lives and communities benefit. Keeping girls in school supports economic growth, promotes peace, and helps fight climate change. Women who complete secondary education go on to make higher incomes with each additional year of schooling boosting a girl’s earnings as an adult by up to 20%.</p>
+                <h5>8. Women shoulder billions of hours of unpaid childcare globally.</h5>
+                <p>You’d be forgiven for thinking that women doing all the chores around the house is lower down on the list of gender equality priorities. It’s just a bit of washing up, right?</p>
+                <p>Well, those hours add up, especially for women and girls who live in poverty and are from marginalized groups and it keeps them out of schools and jobs. </p>
+                <p>This phenomenon is referred to as unpaid care work. Unrecognized and undervalued, this invisible labor falls largely on mothers and daughters. </p>
+                <p>The pandemic, as with most things, made it worse. In 2020, school, preschool, and daycare closures led to an additional estimated 512 billion hours of unpaid childcare globally for women. That’s over 57,000 decades of unpaid work. </p>
+                <h5>9. Almost 1 in 4 women experienced food insecurity in 2022.</h5>
+                <p>The world is in the grip of an unprecedented and growing hunger crisis. A devastating convergence of conflict, climate change, and COVID-19 had already placed some of the world’s poorest under enormous strain, but the war against Ukraine now threatens to push millions of people into the most acute classification of hunger there is: famine.</p>
+                <p>Women are more likely than men to experience food insecurity, and the gender gap is growing. Globally in 2022, nearly 1 in 4 women experienced moderate or severe food insecurity — and it’s only predicted to get worse if action isn’t taken immediately.</p>
+                <h5>10. It could take another 286 years to remove discriminatory laws for women and girls. </h5>
+                <p>Laws that enshrine gender equality (like paying men and women the same money for the same work), prohibit discrimination against women, and guarantee equal rights are all crucial to ensuring women have equal legal rights and protections. But gaps remain in many countries and at the current rate, it may take up to 286 years to secure these legal frameworks. </p>
+                <h5>11. Just 1 in 3 managers or supervisors is a woman.</h5>
+                <p>The glass ceiling continues to hold strong and will do for some time — 140 years to be precise until women achieve parity at the current pace of change, according to the report. </p>
+                <h5>12. Women hold just 26.5% of parliamentary seats</h5>
+                <p>As of Jan. 2023, women held just over a quarter of parliamentary seats around the world. Only 13 countries, mostly in Europe, have gender-equal cabinets.</p>
+                <p>This isn’t about to change any time soon with the earliest date for parity forecast for 2062.</p>
+                <h5>13. Women earn just 77 cents for every dollar men earn.</h5>
+                <p>Although the global gender gap narrowed slightly between 2022 and 2023, women still earn less money over the span of their working lives than men.</p>
+                <p>Factors that contribute to this gender-based wealth inequity are gender pay gaps, unequal career progression trajectories, gender gaps in financial literacy, and life events. For frontline operational roles, for example, the overall gender wealth gap amounts to 11%; for professional and technical type roles, the gender wealth gap nearly triples to 31%; and for senior expert and leadership roles it expands further to 38%, according to the World Economic Forum.</p>
+            </div>
+        </article>
+
+        <article id="article-4" class="art4">
+            <h2 class="ms-4">Ever wondered what feminism is all about?</h2>
+            <h5 class="ms-4">What is Feminism? <br>Before we discuss the types of feminism in length, let’s discuss what feminism is about and what exactly brought this movement into place. The term “Feminism” originates from the Latin word “Femina” meaning “woman”, thereby referring to the advocacy of women’s rights seeking to remove restrictions that discriminate against women. It essentially relates to the belief that women are equal power holders, and therefore it stands against any form of discrimination or subjugation that women face. </h5>
+            <div class="artimg">
+                <img  src="images/article4.fw.png" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <h5>Birth of Feminism </h5>
+                <p>There are several types of feminism, but before that, let’s find out what led to this movement’s emergence. Around fifty years ago, a liberation movement for equality and freedom was launched by American women. They achieved a revolution in the western world and created a vision for women and young girls worldwide. Today, for a country to be called ‘democratically developed’, there has to be equal participation of both men and women in the economic and social spheres of the society. However, with the changing trends in society, the new challenges and the new potential allies that didn’t exist back in the 20th century, the need of the hour is to rethink ‘feminism’ in the 21st century. Feminism is multicultural and diasporic. The needs of women who live in different countries are dissimilar, and they are conditioned by several factors governing their lifestyles. In such a diverse context, it would be far from wrong to associate Indian feminism with the western, marked by radical norms. Spaces around us are gendered too. Femininity is associated with enclosed spaces and interiority. Their world outside of the home is devoid of their control and authority.</p>
+                <h5>Feminism Today </h5>
+                <p>Today, as we talk about feminism, there is still a large section of society that questions its importance and its need in the 21st Century. Different types of feminism have emerged with time, but we keep forgetting that despite the progress made so far, the road to complete parity still has many unexplored. For a country like ours, feminism is important for women to realize their true potential and break free from society’s existing norms and shackles. Gender bias is highly prevalent in most western societies to date. Women are often shunned for their choice of clothing and career. We need to understand that our society’s change can only come about if our society changes its perception. We must understand that acceptance must come from our society at large. The laws shall be rendered useless if societal acceptance is absent. We may enforce any number of laws, but as long as the people don’t change their outlook, it shall be of no use. It’s high time we recognize that feminism is no more about making women strong. It is more importantly about changing the way the world perceives this strength.</p>
+                <p>One should not perceive feminism as hostility against men because women asking for their rights will certainly not deprive men of theirs.                 </p>
+                <h5>Types of Feminism </h5>
+                <p>Now let’s move on to discuss the major types of feminism. Over the past few decades, many scholars have tried to categorize feminism into various types. Feminism can be broadly grouped into five types. Let’s discuss each of the types now:</p>
+                <h5>Liberal Feminism</h5>
+                <p>The roots of liberal feminism can be traced back to the Social Contract Theory. It is the first of the many types of feminism. The purpose of this feminism was to integrate women into the mainstream structure of society. It primarily focused on achieving gender parity by ensuring political and legal equality. The proponents of this category of feminism were Abigail Adams and Mary Wollstonecraft.</p>
+                <h5>Radical Feminism</h5>
+                <p>Next on our list of types of feminism is radical feminism. As the name suggests, radical feminism is a branch of feminism that emphasizes on radical reordering of society. It calls for a society where no prejudices exist, and male supremacy is eliminated in the socio-economic context. However, it also recognizes that women’s experience might vary depending upon social divisions like race, caste etc.</p>
+                <h5>Marxist Feminism </h5>
+                <p>Moving further in the types of feminism, we have Marxist feminism. It is based on Marx’s view of capitalist society. Marx says the only way to ensure gender parity would be by dismantling the capitalist society. As he believes, women are exploited in the capitalist system as their labour goes uncompensated.</p>
+                <h5>Cultural Feminism </h5>
+                <p>Next on our list of types of feminism is cultural feminism. Cultural feminism was a consequent product of radical feminism. Cultural feminism is more of a pejorative label. Cultural feminism was an attempt to redefine the values ascribed to the stereotypical “femaleness”. It also attempts to describe the theories that essentially talk about the innate differences between men and women.                </p>
+                <h5> Eco Feminism</h5>
+                <p>Last but not least, we have ecofeminism. This form of feminism is a part of Green politics. It attempts to draw parallels between women and nature through culture, religion and literature and also seeks to establish the connection between the two. The scope of this form of feminism is broad and dynamic and emphasizes the fact that both women and nature must be protected at all costs.</p>
+            </div>
+        </article>
+
+        <article id="article-5" class="art5">
+            <h2 class="ms-4">Why We Still Need Feminism in 2023</h2>
+            <h5 class="ms-4">Some people think feminism is no longer needed. Of course, that's not true.</h5>
+            <div class="artimg">
+                <img  src="images/article5 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>It’s not uncommon these days to hear: “What is the point of feminism in 2023? Haven’t we already achieved gender inclusivity and equality?”</p>
+                <p>The answer is no. We haven’t. </p>
+                <p>Many organizations have worked toward achieving gender equality for decades, yet so much is yet to be done. 
+
+                </p>
+                <p>Today, girls and women continue to face barriers and challenges derived from structural discrimination based on sex and gender and discriminatory social norms. In this context, feminism can be seen as a movement to put an end to sexism, sexist exploitation, and oppression and to achieve full gender equality in both law and practice.</p>
+                <p>The 16 Days of Activism Against Gender-Based Violence campaign is an opportunity to build on our progress and call for the prevention and elimination of violence against women and girls, specifically. The global movement, celebrated each year from Nov. 25 (the International Day For Elimination Of Violence Against Women) to Dec. 10, which is International Human Rights Day, began more than 30 years ago. It is still used as an organizing strategy by citizens and governments around the world to show how important it is for women to live free from violence. </p>
+                <p>It has been more than three decades since the first celebration of 16 Days of Activism — and yet one in three women today still experience physical or sexual violence, mostly by an intimate partner. Globally, that’s an estimated 736 million women who have been subjected to physical and/or sexual intimate partner violence, non-partner sexual violence, or both. This figure does not include sexual harassment. By overlooking the extent of sexual abuse and sexual harassment, we find ourselves in what I call the “illusion of gender equality.”                 </p>
+                <p>And yet, some people think feminism is no longer needed.</p>
+                <p>Why? For two primary reasons: First, some people think gender inequality is an “over there” problem - something that occurs in other places but not in their day-to-day lives or community. Second, some people think it’s a “back then” problem — something older generations grappled with, but isn’t an issue any longer.</p>
+                <p>Of course, that’s not true.</p>
+                <p>There’s a clear lack of understanding when it comes to needing feminism to achieve gender equity. In fact, last year a study found one in three men think feminism does more harm than good. It shocks me to hear some people say we don’t need feminism in our modern society — as nothing could be further from the truth. </p>
+                <h5>The Uphill Battle </h5>
+                <p>Feminism will be necessary until women are equal to men, but right now they aren’t. The grim reality is, it will take another 286 years for the world to achieve gender equality. This rate of “progress” is much too slow for something so long overdue. </p>
+                <p>It is discouraging statistics like these that should serve as a catalyst for change. By promoting social inclusion, feminist movements can enhance opportunities for women to participate meaningfully in the economy and advance both peace and prosperity.</p>
+                <p>Indeed, gender inequality is a pressing moral and social issue as well as a critical economic challenge. A 2015 report by the McKinsey Global Institute (MGI) titled, “The Power of Parity: How Advancing Women’s Equality Can Add $12 trillion to Global Growth”, explored the economic potential available if the global gender gap was narrowed. If women — who account for half the world’s population — do not achieve their full economic potential, the global economy will suffer. </p>
+                <p>Despite this, laws and policies continue to reinforce unequal gender roles and devalue caregiving. Feminism can highlight the burden of domestic duties and parental demands and try to prompt policy change, such as parental leave policies. </p>
+                <h5>Feminism Needs Support More Than Ever </h5>
+                <p>Whether it’s escalating conflict, food shortages, or the climate crisis, all of the world’s greatest challenges fall the hardest on women and girls. Women and girls are more likely to live in extreme poverty than men. In conflict, their bodies become battlefields –and when food is short, women often eat least and eat last. Of the 690 million people who are food insecure in the world right now, 60% are women and girls. </p>
+                <p>All of these issues are challenging to address. However they prove that there should be no doubt that the world still needs feminism in 2023. Feminism, along with women’s rights movements, is the closest we have to a silver bullet when it comes to ensuring women and girl’s equity and ending extreme poverty once and for all. </p>
+                <p>Here at Global Citizen, we aim to leverage our relationships, platforms and convening power to create a future where every woman and girl can thrive. What does this mean in practice? It means using our platform to undertake coordinated advocacy and campaigning, seeking to mobilize resources and policy commitments to secure transformative investments in women and girls’ health and rights. </p>
+                <p>We seek to influence and support decision-makers, institutions and civil society to demand, adopt, develop and implement gender-responsive normative frameworks, legislation and policies. This also means addressing the structural challenges of gender inequality including efforts to change unequal gender and power relationships and discriminatory attitudes, behaviors and practices. </p>
+                <p>So, during this year’s 16 Days of Activism — and every day for the next 300 years or however long it takes — let us dedicate energy, passion, and vision towards achieving the equality that has escaped us for generations. Because, as we say at Global Citizen, “investing in women and girls is not only the right thing to do — but the smart thing to do.”</p>
+            </div>
+        </article>
+
+        <article id="article-6" class="art6">
+            <h2 class="ms-4">5 Things Bees Can Teach Us About Feminism</h2>
+            <h5 class="ms-4">Bees might just have this gender equality thing all figured out.</h5>
+            <div class="artimg">
+                <img  src="images/article6 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>Bees function within female-run communities. Male bees are almost useless. How that compares to humanity… depends on your viewpoint. This World Bee Day, after finding out more about the female-led societies of bees, we decided to run a little test and ask ourselves: does the world need men?</p>
+                <p>First, we asked the internet. The reviews were mixed. Science’s answer is yes; mainly for procreation purposes. The Goddess of Pop, Cher, however, replied to the question with: “Like, for what?” Which is an equally reputable answer.                 </p>
+                <p>Then we asked our team. Content Creation Manager, Tess Lowery said: “Need? No.” </p>
+                <p>Our Director of Food Security, Nutrition, and Agriculture, Mwandwe Chileshe responded: “It’s good for biodiversity, from that perspective all species are needed.”                </p>
+                <p>Senior Director for Content Creation, Imogen Calderwood responded: "As individuals? No. As a society? Most definitely yes — we need everyone!"                 </p>
+                <p>Senior Manager for Digital Campaigns, Thato Noinyane, came through with an introspective answer, saying: “I guess from the perspective of survival of the human race, women need men. But the world has changed so much and traditional roles aren’t central points in this society. As mental health has become a key conversation, people are seeking to become their best selves which means looking less externally for happiness or a fulfilled life. We are searching for more authentic relationships and partnerships.”</p>
+                <p>“The only challenge with this is that more and more women are seeking healing than men,” she continued. “So back to the question, do we actually need men? Maybe the answer and perspective depends on how much internal work one has done.”                </p>
+                <p>With such conflicting answers, we decided to go back to the bees — it turns out that they had the answers for us all along. In fact, bees have so much to teach us about the power of women and how a feminist society can work.                 </p>
+                <h4>These are a few key lessons we’ve learned about feminism and female leadership from bees.</h4>    
+                <h5>1. Trust a woman in leadership</h5>
+                <p>Queen bees hold their reign because they create the life being born into the hive. The worker bees trust her entirely to continue populating the hive. In essence, she leads by serving.</p>
+                <p>What’s interesting is that, similar to a democratic society, the worker bees decide on their queen bee, and if they are unhappy with her, they can end her reign. While by nature, a male bee (called a drone) cannot lead the hive — a contrast with humanity — there’s still much to be said about how the hive trusts the leadership of a female bee.                </p>
+                <p>They trust her movements, and her decisions on who to mate with to produce more workers. On the human being side of things, we can learn a lot from bees about the importance of elevating women into leadership positions, and trusting them to serve and further the community while they are there.</p>
+                <p>In fact, women leaders have proven to be very adept at leading peaceful and happy communities. The 2023 World Happiness Report, for example, showed that the top three countries with the happiest populations are all led by women: Finland, Denmark, and Iceland.                </p>
+                <h5>2. Women should be at the forefront of, well, everything                </h5>
+                <p>The female bees do everything, while the male bees don’t do any work. According to National Geographic, “they spend their whole lives eating honey and waiting for the opportunity to mate.” </p>
+                <p>It means that a functioning hive is impossible without female bees at the forefront of everything. They lead the community, they clean and build the hive, they forage for food, they care for and nurse sick bees — they run the entire society, because they were born to do so.                 </p>
+                <p>This is a key lesson for human communities. Women can be anything they want to be, and are capable of being at the forefront of any and all spaces; if only they are trusted to do so and the space is made for them to be there.                </p>
+                <h5>3. When men are no longer necessary, kick them out</h5>
+                <p>During the autumn and winter seasons, it’s common for worker bees to give male bees the boot, evicting them from the hive.</p>
+                <p>That’s it. That’s the lesson. Kick men out every winter.                 </p>
+                <p>We’re just kidding, of course. The reason that workers kick out the male drones is because food generally gets too scarce to feed the whole hive in the winter, and because the male bees do no work and are the least necessary, they get kicked to the curb.                 </p>
+                <p>This is actually in contrast to humanity, for which, when food becomes scarce, it’s women who bear the brunt — in times of food insecurity, women typically eat last and eat least. This is for a couple of reasons, including a restriction of women’s rights and the exercising of deep-seated and oppressive gender norms. In fact, of the 690 million people who are food insecure globally right now, 60% are women and girls.</p>
+                <p>The lesson actually is that men shouldn’t lead or participate in spaces where their interests are not to further serve the society, but only to feed from it. With that said, nobody should be, regardless of gender.</p>
+                <h5>4. Value the work women do</h5>
+                <p>Bees are incredible communicators, and never keep vital information to themselves — this includes where to find the food and how to help others.</p>
+                <p>Fascinatingly, worker bees reflect human society in that its women that are often the ones trusted to find and share food, and to take care of the community as a whole. This is seen as important work within the hive.                 </p>
+                <p>Contrarily, it’s not often seen as such when it comes to humanity. Care work and providing nutrition is the kind of work that goes unseen and unpaid in human society, and its women and girls that are disproportionately impacted by the lack of appreciation and value of this work — ​​women and girls are responsible for over 75% of unpaid care work in the world. However, it is some of the most important work in all of society, with this kind of work contributing more to the economy than sectors like manufacturing, commerce, or transportation.                 </p>
+                <p>We can learn from bees to appreciate this care work for its importance to society and the value it brings.                </p>
+                <h5>5. Society cannot exist harmoniously without women</h5>
+                <p>Worker bees know that they have specific roles to play, and are consistently working on a bigger picture: a harmonious and well-oiled hive. They communicate effectively and fulfill their work knowing that it’s not only them that will benefit from the work they do, but everyone else in the hive as well. Because of this, they run harmonious and often peaceful societies.                 </p>
+                <p>When it comes to humanity, women have proven to be extremely effective in mediation and peacekeeping for their ability to connect with communities, and to communicate effectively. We should learn from bees that women can be essential in keeping the peace and helping to build strong institutions.                 </p>
+                <p>What is the answer then? Does a society need males? Well, yes. They tend to serve a purpose, even if, when it comes to bees anyway, that purpose is to eat honey and procreate.</p>
+                <p>The larger lesson here is that while men are of course completely necessary to our world and society, we should also never underestimate the power of women to lead too, and we should never forget the benefits of female leadership.</p>
+                <p>Naturally, bees have it all figured out, and we salute them for the lessons they’ve taught us about the importance of women-led communities.</p>
+            </div>
+        </article>
+
+        <article id="article-7" class="art7">
+            <h2 class="ms-4">How a ‘Feminist’ Foreign Policy Would Change the World</h2>
+            <h5 class="ms-4">Gender equity and a gender agenda are two ingredients of a “feminist foreign policy.”            </h5>
+            <div class="artimg">
+                <img  src="images/article7 img.png" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>March 12, 2021, By Rollie Lal, associate professor of International Affairs at George Washington University; and Shirley Graham, director of the Gender Equality Initiative in International Affairs and Associate Professor of Practice at the Elliott School at George Washington University.</p>
+                <p>The Biden administration has a woman, Vice President Kamala Harris, in its second-highest position, and 61% of White House appointees are women.                 </p>
+                <p>Now, it has declared its intention to “protect and empower women around the world.”                 </p>
+                <p>Gender equity and a gender agenda are two ingredients of a “feminist foreign policy” — an international agenda that aims to dismantle the male-dominated systems of foreign aid, trade, defense, immigration, and diplomacy that sideline women and other minority groups worldwide. A feminist foreign policy reenvisions a country’s national interests, moving them away from military security and global dominance to position equality as the basis of a healthy, peaceful world.                 </p>
+                <p>This is in keeping with Hillary Clinton’s groundbreaking 1995 statement at the United Nations, “Women’s rights are human rights.”                </p>
+                <p>The world could change in some positive ways if more countries, especially a power like the United States, made a concerted effort to improve women’s rights abroad, our scholarship on gender and security suggests. Research shows that countries with more gender equality are less likely than other countries to experience civil war. Gender equality is also linked with good governance: Countries that exploit women are far more unstable.                </p>
+                <p>Women aren’t yet any country’s top foreign policy priority. But ever more countries are starting to at least write them into the agenda.                </p>
+                <p><b> Women at the Bottom</b> <br> In 2017, Canada launched a “feminist international assistance policy” aimed at supporting women, children, and adolescent health worldwide. </p>
+                <p>Putting money behind its promises, it pledged Canadian $1.4 billion annually by 2023 to both governments and international organizations to strengthen access to nutrition, health services, and education among women in the developing world. Some $700 million of this money will go to promoting sexual and reproductive health and rights and eradicating gender-based violence. Some $10 million over four years will go to UNICEF to reduce female genital mutilation.                </p>
+                <p>In January 2020, Mexico became the first country in Latin America to adopt a feminist foreign policy. Its strategy seeks to advance gender equality internationally; combat gender violence worldwide; and confront inequalities in all social and environmental justice program areas.                 </p>
+                <p>Mexico must also increase its own foreign ministry’s staff to be at least 50% women by 2024, and ensure it is a workplace free of violence.                </p>
+                <p>Neither Canada nor Mexico has achieved its lofty new goals.                </p>
+                <p>Critics say Canada’s lack of focus on men and boys leaves the traditions and customs supporting gender inequality not fully addressed. And in Mexico, which has among the world’s highest rates of gender violence — men murder 11 women there every day — it’s hard to see how a government that cannot protect women at home can credibly promote feminism abroad.                </p>
+                <p>But both countries are at least taking women’s needs explicitly into account.                </p>
+                <p><b>Feminist Foreign Policy</b>The US, too, has taken steps toward a more feminist foreign policy.</p>
+                <p>In summer of 2020, under the Trump administration, the departments of Defense, State, and Homeland Security, along with the US Agency for International Development, each published a plan putting women’s empowerment in their agendas.                </p>
+                <p>These documents — passed in accordance with a 2000 United Nations Security Council resolution on women, peace, and security — promote women’s participation in decision-making in conflict zones, advance women’s rights, and ensure their access to humanitarian assistance. They also include provisions encouraging American partners abroad to similarly encourage women’s participation in peace and security processes.                 </p>
+                <p>These are the components of a feminist foreign policy. But the plans are still operating in silos. A truly feminist foreign policy would be coherent across aid, trade, defense, diplomacy, and immigration — and consistently prioritize equality for women.</p>
+                <p>One of Biden’s early moves in office, in January, was to rescind the “global gag rule,” a Republican policy prohibiting health providers in foreign countries that receive any US aid from providing abortion-related services — even if they use their own money. Studies show the funding restriction reduces women’s access to all kinds of health care, exposing them to disease and forcing women to seek unsafe abortions.                </p>
+                <p>Reallocating financial resources in ways that level the playing field for women is another critical aspect of a feminist foreign policy. But again, it needs to be a policy that’s consistent and across the board, not a one-off decision.                </p>
+                <p><b>Afghanistan, Women,and Peace</b>The US, long a leading world power, is unlikely to replace its international military security strategy with a purely “feminist” foreign policy.</p>
+                <p>But it doesn’t have to.</p>
+                <p>As the evidence grows that women’s well-being is central to everyone’s well-being, the connection between gender equality and global security can be naturally incorporated into updated global strategies focusing on traditional American goals like international security and human rights.</p>
+                <p>Afghanistan shows the necessity of — and opportunities for — a feminist US foreign policy.                 </p>
+                <p>Afghan women were brutally discriminated against under the Taliban, with girls banned from education and women barred from leadership in politics, security, and business. Now, under the Afghan government of President Ashraf Ghani, 28% of Afghan parliamentarians are women and 3.5 million girls are in school. Women worry that their freedoms could be compromised in any power-sharing agreement with the Taliban.</p>
+                <p>Yet American officials distinctly, and controversially, did not incorporate gender into negotiations with the Taliban militant group to end the war in Afghanistan. Only one US negotiator is a woman — poor representation for a country that says it is committed to conserving Afghan women’s rights. The Taliban delegation has no women, and just four women sit on the Afghanistan government’s 21-member delegation.</p>
+                <p>With the US' help, an Afghanistan accord could secure the gains women have made since the US toppled the Taliban in 2001 — or it could sacrifice them for “peace.”</p>
+            </div>
+        </article>
+
+        <article id="article-9" class="art9">
+            <h2 class="ms-4">'Feminism' Is The Word Of The Year. Here’s Why That Should Make Us All Proud</h2>
+            <h5 class="ms-4">Merriam-Webster’s dictionary defines feminism as...</h5>
+            <div class="artimg">
+                <img  src="images/article8 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>Let’s not beat around the bush. This year has, in some ways, been pretty rough.</p>
+                <p>There have been natural disasters, man-made disasters, and a general feeling of despair that spawned the inception of twisted abominations known as existentialist memes.</p>
+                <p>BUT— </p>
+                <p>It’s also been a year that has shown human resilience and dedication to ideals. People around the world have rallied to help rebuild earthquake- and hurricane-stricken lands; cities and nearly all countries have stepped up to fight climate change; and humans are demonstrating in the streets about the policies they want to see enacted. It has definitely not been a year of apathy.</p>
+                <p>This week, the world got another indication that humans are doing okay, and working toward doing a whole lot better. It comes in the form of one word.</p>
+                <p>Today, dictionary titans Merriam-Webster declared “feminism” to be their annual word of the year.</p>
+                <p>Merriam-Webster made their decision based on a series of metrics that calculated how many people searched their site for a given word. In 2017, no term received more searches or more intense spikes in search frequency than feminism. And here’s why that matters.</p>
+                <p>With the Women’s March in January, and the rise of the #MeToo movement, 2017 has witnessed some historic moments in the progression of women’s rights and a surge in global attention being paid to women’s issues.</p>
+                <p>Around the world, most countries still have laws on their books that allow for discrimination against women — whether through violence against women, economic or educational disadvantages, or marriage laws that allow young girls to be married off without their consent.</p>
+                <p>The World Health Organization reports that roughly 1 in 3 women will face sexual violence in their lifetime. In the US, recent data reveals that women still make only 83% of the money men make.</p>
+                <p>To make real change and ensure an end to gender discrimination, people in all countries will have to demand equality under the law. Global Citizen campaigns to #LevelTheLaw for women everywhere, and you can join us in taking action here.</p>
+                <p>The fact that “feminism” is the most-looked-up word of 2017 signals that there is growing awareness of women’s issues and the need for collective action to demand and ensure women’s equality.</p>
+                <p>Our desire to move forward doesn’t mean that everything is already rosy. <br> Last year, Merriam-Webster’s list included such gems as post-truth, snowflake, xenophobia, and even fascism. Yikes.  If the words of the year for 2016 were all about coming to grips with the bad, feminism taking the top spot in 2017 shows that this year has been about pushing back against those forces.<br>  This year’s word should give us hope that we are having the right conversations, asking the right questions, and moving in the right direction. Here’s to feminism.</p>
+            </div>
+        </article>
+
+        <article id="article-8" class="art8">
+            <h2 class="ms-4">13 Feminist Protests in 2022 Taught Me These 7 Things</h2>
+            <h5 class="ms-4">This is what women have been protesting around the world this year.</h5>
+            <div class="artimg">
+                <img  src="images/article9 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>“We have to march.”</p>
+                <p>On Nov. 9, 2016, the day after Donald Trump was elected president of the United States, a retired lawyer from Maui, Hawaii called Teresa Shook, wrote a Facebook post and hit send. </p>
+                <p>Less than three months later, that Facebook post had helped to ignite a smoldering discontent that culminated in the largest single-day protest possibly in US history: the Women’s March of 2017. Since then, we’ve made great strides from the legalization of abortion in Ireland to Saudi Arabia lifting its ban on female drivers.</p>
+                <p>Despite this progress, we’re actually further away from gender equality now than we were in 2017. According to a report published by UN Women in Sept. 2022, it could take close to 300 years to achieve full gender equality at the current rate of progress (read: too slow). </p>
+                <p>Why? A global pandemic, conflict, climate change, and harsh backlash against progress for women’s rights. We gain an inch, then we’re pushed back a mile. </p>
+                <p>But women and girls are fighting back, their anger and resilience exploding like lava in the sky across continents. This year alone, the Carnegie Endowment (a global protest tracker) notes 13 major protests around the world relating to women’s issues. Compare that to 2019 when they recorded just one. </p>
+                <p>However, it’s important to note that this is not a woman’s fight. It’s on all of us, however we may feel about the F-word, to use our voices, positions of privilege, or proximity to power to change the world and achieve gender equality for all people, everywhere. Nothing less will do.  </p>
+                <p>Having reflected on what women’s movements looked like this year, here’s what I learned from the 13 feminist protests that took place in 2022, from India to El Salvador. </p>
+                <h4>1. Liberation isn’t about how much or how little skin you show; it’s the freedom to choose.</h4>
+                <p>In January 2022, college student Muskan Khan was attempting to hand in an assignment when she was accosted by a group of Hindu men wearing saffron scarves — the color of India's ruling pro-Hindu Bharatiya Janata Party (BJP). </p>
+                <p>The men heckled her as she made her way across the school grounds, demanding she take off her face covering. Instead of complying, Khan shouts back "Allahu Akbar" as she punches her fist in the air.</p>
+                <p>Khan became the poster girl for the movement against the religious divide in Karnataka, a southwestern Indian state, after a group of girls began protesting outside their government-run school when they were denied entry to the classroom for wearing Muslim religious attire. </p>
+                <p>The protests then spread to other cities including in Delhi where scores of students took to the capital’s streets holding placards and shouting slogans to express their anger at the ban.</p>
+                <p>Just under nine months later, on Sept. 16, 22-year-old Kurdish woman, Mahsa Jina Amini, was arrested by the so-called morality police in Tehran, Iran, for “incorrectly” wearing her hijab and allegedly beaten to death.</p>
+                <p>Protests erupted around the country with women taking to the streets to dance, cut off their hair and burn their hijabs. The unrest has continued to swell into an uprising that has become the most significant in Iran since the 1979 revolution.</p>
+                <p>Whether it’s the right to wear the hijab or the right not to wear it, the right to wear trousers or the right to sport a bikini, the fight is the same. It’s the fight against patriarchal oppression. Liberation isn’t tied to a particular garment, or how much or how little skin women show; it’s the freedom to make choices about our own bodies and what we clothe them in — and it’s a fight that is still raging around the world. </p>
+                <h4>2. The path to gender equality isn’t linear.</h4>
+                <p>While some us might have assumed that the painful, inching progress of feminist victories was a one-directional line on the graph toward gender equality, 2022 revealed how rapidly those victories, and the rights they represented, could be reversed. </p>
+                <p>In countries as diverse as Afghanistan and the US, women and girls now have fewer rights than their mothers and grandmothers did. </p>
+                <p>On March 24, 2022 ― the date the education ministry had set for classes to resume — thousands of jubilant girls across Afghanistan had flocked to their learning institutions. But just hours into the first day, the Taliban announced a shock policy reversal that ordered girls’ secondary schools to close, undermining two decades of educational and economic progress. </p>
+                <p>Despite the great risk of protest in Afghanistan, people gathered in the capital city, Kabul, the following Saturday with chants to "Open the schools! Justice, justice!"</p>
+                <p>In the year since the Taliban returned to power, they have also issued various orders restricting the freedom of women — barring them from most government jobs, secondary education, and from traveling more than 70 km without a male guardian.</p>
+                <p>Then, on Friday, June 24, 2022, the Supreme Court voted to overturn Roe v. Wade, a landmark ruling that had safeguarded the right to abortion across the US. Since then, at least 13 states have banned abortion meaning that Americans in these states now have fewer human rights protections than authoritarian regimes such as Saudi Arabia.</p>
+                <p>From beneath the Statue of Liberty to Croatia, the shockwaves of this decision were felt around the world — not least because of the potential implications for abortion rights around the globe. Hundreds of thousands took to the streets to make their voices heard with a mixture of rage, grief, and desperation.</p>
+                <p>I knew that the fight for gender equality was an uphill battle, but 2022 showed me that it’s not just continuously uphill; it’s hilly. Despite vertiginous mountainous peaks such as the election of Ketanji Brown Jackson as the first Black woman to sit on the US Supreme Court and an increasing number of nations adopting feminist foreign policies, this is a fight that also comes with its abject troughs. </p>
+                <h4>3. Criminalising abortion does not stop abortions. </h4>
+                <p>Abortion is a basic healthcare need for millions of women, girls, and others who can become pregnant. Worldwide, an estimated one in four pregnancies end in an abortion annually.</p>
+                <p>According to a British research team that analyzed data from 1990 to 2019, abortion rates in countries with abortion bans were roughly the same as in countries where abortion is permitted. In fact, in countries where abortion was restricted, the proportion of pregnancies ending in abortion increased.  </p>
+                <p>An estimated 25 million unsafe abortions take place each year leading to the hospitalization of about 7 million women a year in developing countries, and almost 4%-13% of maternal deaths globally. </p>
+                <p>All criminializing abortion does is make abortion unsafe for those seeking it. It’s no wonder then that people around the world from El Salvador to Poland took to the streets to protest strict abortion laws. </p>
+                <p>In January, protests took place in Poland after a 37-year-old woman died because doctors refused to give her an abortion, two years since the country introduced one of the most restrictive abortion laws in Europe.</p>
+                <p>“We continue to protest so that no one else will die,” Marta Lempart, organizer of the protests, said. “The Polish abortion ban kills. Another person has died because the necessary medical procedure was not carried out on time.”</p>
+                <p>On the other side of the globe, in March, thousands of women marched in El Salvador's capital against the country's total ban on abortions and its high femicide rate.</p>
+                <p>Introduced in 1988, El Salvador has one of the toughest abortion laws in the world. Women can be jailed for having an abortion even if their lives are at risk or if they were raped. Since then, dozens of women have been found guilty of "aggravated homicide," and given decades-long sentences, even in cases where the women say they have suffered miscarriages.</p>
+                <h4>4. Representation really does make a better world.</h4>
+                <p>Data show that women are underrepresented at all levels of decision-making worldwide, and that achieving gender parity in politics is far off. </p>
+                <p>In Cameroon, thousands of women protested on International Women’s Day in March, demanding more political power and government jobs. Women make up more than half of Cameroon’s population, but there is not a single woman among the country’s 10 regional governors or council presidents.</p>
+                <p>This isn't just about fairness. Evidence shows that when women have a place at the table, peace talks are less likely to fail, and the resulting agreements last longer. But women are not only instrumental for the success of peace negotiations – they also play a crucial role in the prevention of conflicts. </p>
+                <p>It’s the same for other global issues. The family photograph of heads of state and government released to the world on the first day of COP27 included 117 people. Just seven of them were women. Yet female leadership is proven to improve climate outcomes.</p>
+                <h4> 5. Sex work is work.</h4>
+                <p>In Oct. 2022, sex workers and the owners of brothels demonstrated in Madrid in front of the Spanish Parliament over a bill that would penalize prostitution customers and sex club owners or pimps with sentences up to four years in prison.</p>
+                <p>They say the Socalist party’s bill will push the trade underground, putting sex workers at greater risk of violence and unsafe conditions.</p>
+                <p>Part of a broader women's rights push by the Socialist Party, the draft legislation treats sex workers as victims, rather than criminals as would be the case under a ban on prostitution. </p>
+                <p>But this isn’t how many sex workers think of themselves. For them, sex work is work; it’s the labour they perform. They are neither criminals, victims, nor vectors of disease. This is why sex workers advocate for decriminalization (which means that consenting adults who buy or sell sex are not committing a crime) over legalisation (which would create a set of laws, codes, and regulations specific to the sex industry). </p>
+                <p>Indeed, UNAIDS, the World Health Organization (WHO), Amnesty International, Human Rights Watch, and the United Nations Population Fund (UNFPA) have all called on countries to decriminalize sex work.</p>
+                <p>There are an estimated 40 to 42 million sex workers in the world, and 80% of them are female. But there is only one country in the world that has completely decriminalized sex work: New Zealand. As the proposed Spanish bill goes to show, even those with the best of intentions risk hurting the communities they are trying to help.</p>
+                <h4>6. Care work is a serious issue.</h4>
+                <p>Meal prep and cooking. Collecting water. Caring for the kids. The amount of time spent on chores and caring for others might not always seem like a lot, nor like a particularly crucial part of the struggle for gender equality. But eventually, it adds up — especially for women and girls who live in poverty or are from marginalized groups.</p>
+                <p>This phenomenon is known as unpaid care work and it’s crucial for households and economies to function. Estimates show that 16.4 billion hours are spent on unpaid care work every day. The International Labor Organization found that if care work was valued the same as other work, it would represent a tenth of the world’s economic output. Some governments depend on unpaid work to compensate for public services. Yet it’s largely undervalued and largely unpaid. </p>
+                <p>In October 2022, mothers — including Nigerian author Chimamanda Ngozi Adichie and British broadcast personality Kate Quilton — flooded the streets of the UK for the March of the Mummies: a protest organized by Pregnant Then Screwed which called for reforms to the childcare sector in the UK.</p>
+                <p>Joeli Brearley, CEO of Pregnant Then Screwed, told Global Citizen: “Thousands of parents took to the streets in our March of the Mummies protest to demand their voices be heard by this government. Parents of young children don’t protest unless they are really furious. They have had enough. They feel they are being set up to fail.”</p>
+                <h4>7. Silence speaks volumes. </h4>
+                <p>Although there were 13 feminist protests around the world this year, that doesn’t mean that women aren’t fighting for their rights in places where there were no protests. In fact, sometimes protest can look very different from people gathered with placards on a street shouting slogans. Protest might look very different in a war-torn country.</p>
+                <p>The war in Tigray, Ethiopia, for example, has been defined by extreme violence against women and girls, with UN experts warning that rape has appeared “to have been used as part of a deliberate strategy to terrorize, degrade, and humiliate the victims and the ethnic minority group that they belong to, with the acquiescence of the state and non-state actors parties to the conflict.” </p>
+                <p>Instead of taking to the streets, women and girls in Tigray are using their voices and stories to protest the sexual assault and human rights violations they are experiencing there, because this is the only avenue left for them to fight. As one survivor whose real name had to be withheld for her own safety told Global Citizen: “I want the world to hear my story and Tigray’s women's story. Hear our cries. Help us seek justice.”</p>
+            </div>
+        </article>
+
+        <article id="article-10" class="art10">
+            <h2 class="ms-4">17 of the Best Quotes About Feminism From Celebrities</h2>
+            <h5 class="ms-4">These women are reclaiming their time.</h5>
+            <div class="artimg">
+                <img  src="images/article10 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>“The future is female.”</p>
+                <p>“We cannot all succeed when half of us are held back."</p>
+                <p>“Who run the world? Girls.”</p>
+                <p>Powerful quotes about feminism abound, but in the wake of #MeToo movement and the Women’s March in 2017, these quotes seem endowed with perhaps even more urgency than ever before. </p>
+                <p>This has been a year in which women have been anything but silent. In fact, TIME Magazine called the “Silence Breakers” its “Person of the Year” for 2017. </p>
+                <p>In 2017, women from all walks of life have added their voice to a growing national and global conversation about gender equality, which also happens to be the fifth Global Goal for Sustainable Development from the United Nations. </p>
+                <p>As conversations surrounding feminism and inequality become embedded in mainstream discourse, celebrities have an important platform to voice what it means to be a feminist, what it means to confront gender stereotypes, and why it’s so important to practice self-love regardless of your gender, age, or race. </p>
+                <p>These 17 celebrities — actresses, politicians, writers — are speaking out and fighting back. Here’s what they had to say about feminism in 2017: </p>
+                <h4>1. Elizabeth Moss</h4>
+                <p>“We live in a different time than we lived in a year ago. And I wish we were sitting here talking about this dystopian fictional world, and how glad we are that we’re not in that, because we have a female president. I wish that were the conversation.”</p>
+                <h4>2. Jessica Williams</h4>
+                <p>“[S]ome days, I’m just black, and I’m just a woman. Like, it’s not my choice. I know who I am. I know I’m Jessica, and I’m the hottest bitch on the planet I know.”</p>
+                <p>3. Malala Yousafzai</p>
+                <p>“We need to encourage girls that their voice matters. I think there are hundreds and thousands of Malalas out there.”</p>
+                <h4>4. Taylor Swift </h4>
+                <p>“I decided to forego any courtroom formalities and just answer the questions the way it happened. This man hadn’t considered any formalities when he assaulted me.” </p>
+                <h4>5. Emma Watson</h4>
+                <p>“Feminism is about giving women choice. Feminism is not a stick with which to beat other women with.” </p>
+                <h4>6. Gal Gadot</h4>
+                <p>"I feel very proud that finally this movie is being made because all of the guys, all men, all boys, always had a figure to look up to. Whether it’s Superman or Batman or Spider-Man or whatever it is, they always had heroes to look up to, and for girls it’s always the princesses who are being saved, who are being passive. Finally, Wonder Woman. She’s fierce, she’s proactive, she believes in herself, she believes she can do everything, and that’s a true woman to me.”</p>
+                <h4>7. Michelle Obama</h4>
+                <p>“Women, we endure those cuts in so many ways that we don’t even notice we’re cut. We are living with small tiny cuts, and we are bleeding every single day. And we’re still getting up.”</p>
+                <h4>8. Chimamanda Ngozi </h4>
+                <p>"Feminism isn’t a cloak that I put on in the morning and take off at certain times. It’s who I am. I look at the world through eyes that are very alert to gender injustice, and I always will." </p>
+                <h4>9. Anne Hathaway</h4>
+                <p>“The deeper into the issue of paid parental leave I go, the deeper I see the connection in the barriers to women’s full achievement and the need to redefine and de-stigmatize men’s roles as caregivers. In other words, in order to liberate women we need to liberate men.”</p>
+                <h4>10. Salma Hayek</h4>
+                <p>“But why do so many of us, as female artists, have to go to war to tell our stories when we have so much to offer? Why do we have to fight tooth and nail to maintain our dignity?</p>
+                <p>I think it is because we, as women, have been devalued artistically to an indecent state, to the point where the film industry stopped making an effort to find out what female audiences wanted to see and what stories we wanted to tell.”</p>
+                <h4>11/ Tiffany Haddish</h4>
+                <p>“I feel like I should be able to wear what I want, when I want, however many times I want, as long as I febreezed it.”</p>
+                <h4>12. Nicole Kidman</h4>
+                <p>"More than ever, I am aware of the need to support and celebrate each other. I like to believe I am part of a global support group network of 3.4 billion. Imagine: if you can fall back on the 3.5 billion sisters, and the many good men who are with us, what could we possibly not achieve?”</p>
+                <h4>13. Solange Knowles</h4>
+                <p>“I want women's rights to be equally honored, and uplifted, and heard...but I want to see us fighting the fight for all women — women of color, our LGBTQ sisters, our Muslim sisters. I want to see millions of us marching out there for our rights, and I want to see us out there marching for the rights of women like Dajerria Becton, who was body slammed by a cop while she was in her swimsuit for simply existing as a young, vocal, black girl. I think we are inching closer and closer there, and for that, I am very proud.”</p>
+                <h4>14. Melinda Gates </h4>
+                <p>"There's a strong chance the next Bill Gates isn't going to look anything like the last one. So I'm interested in finding solutions that will help ensure we recognize her when we see her.”</p>
+                <h4>15. Amani Al-Khatahtbeh </h4>
+                <p>“My goal is to make a feminist statement—shatter stereotypes, open minds, and impact our generation. For Muslim girls, they may see themselves in the stories I’ve written. I hope the next generation will not have to endure what we went through.” </p>
+                <h4>16. Hillary Clinton</h4>
+                <p>“[F]eminism is the belief that men and women should be equal under the law, and in the economy, in our society. Not better. Not worse. Equal. And what I hope is that we will continue to move toward equality, because it still is the unfinished business in our country. And that's equality not only between men and women, but between races and ethnicities and all the divides that we are still struggling with."</p>
+                <h4>17. Maxine Waters</h4>
+                <p>“When you’re on my time, I can reclaim it.” </p>
+            </div>
+        </article>
+
+        <article id="article-11" class="art11">
+            <h2 class="ms-4">Nearly Half of British Girls Call Themselves Feminists: Survey</h2>
+            <h5 class="ms-4">It’s in response to what’s perceived as an increasingly threatening world.</h5>
+            <div class="artimg">
+                <img  src="images/article11 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a></p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>Life is tougher if you’re female.</p>
+                <p>Women get paid less for equal work; have fewer seats on company boards; are less represented in parliament; and face harassment, violence, and abuse at home, in work, and when travelling between the two.</p>
+                <p>And a new study released on Wednesday confirmed that women are more aware than ever that the odds are stacked against them — for now.</p>
+                <p>But struggle begets resistance, and women and girls are fighting back.</p>
+                <p>Every year for the last decade, Girlguiding — the leading charity for girls and women in the UK — has published its Girls’ Attitudes Survey: a snapshot into the lives of young women all over the UK.</p>
+                <p>The survey questions 1,903 women aged 7 to 21 — and 2018’s incarnation found that almost half (47%) identify as feminists, an increase of over a third (35%) from 2013.</p>
+                <p>Feminism can mean different things to different people, but when Girlguiding asked those surveyed, it appears that one definition kept popping up: equality.</p>
+                <p>One young woman described feminism as “equal rights and opportunities between men and women in the workplace, education, and society", according to the BBC. Another said it meant “a person who strongly believes in gender equality and that everyone no matter their background should be treated equally." </p>
+                <p>Feminism is back in business — and the report confirmed that we look to the future with fiercely renewed strength.</p>
+                <ul>
+                    <li>Boldness: 36% of girls aged 11 to 21 have spoken out on an issue they care about, compared to 28% in 2011.</li>
+                    <li>Frankness: Girls are more likely to have friends who live with mental health issues (71%, up from 62% in 2015), but are also more likely to talk about it — 50% said it was being discussed more in schools, an increase from 44% in 2015.</li>
+                    <li>Genius: 41% of those between 7 and 10 years old enjoy subjects like sciences, maths, and technology. It’s a huge jump from 26% in 2016.</li>
+                    <li>Leadership: 53% of girls now want to be leaders in their workplace, up from 42% in 2016.</li>
+                </ul>
+                <p>But there are barriers that hold girls back. Although more are speaking out, slightly fewer believe that it can make a difference than seven years ago.</p>
+                <p>“When asked why they didn’t speak up, girls cited concerns about how they could do so, lack of confidence, fear of not being taken seriously, and worries about the negative consequences of speaking out,” the report stated.</p>
+                <p>“Girls’ lives would be better if we told girls that they can do anything,” one respondent said to the survey. “One thing that would improve girls’ lives is if they had the chance to be heard and be taken seriously,” said another.</p>
+                <p>The survey results suggested that trends like this are a reaction to a threatening world.</p>
+                <p>More than half aged 13 to 21 felt unsafe when walking home alone, while just 25% of girls described themselves as “very happy,” a decrease from 41% in 2009. Many blamed stress from school examinations and pressure from social media. It’s perhaps indicative of how young people form relationships now that just 21% make friends at each other’s houses, contrasted with 69% in 2009.</p>
+                <p>"It might mean they are more aware of [sexism] in the media, online and in public — the result of campaigns like #MeToo and #TimesUp,” said researchers. "However, it is also possible it may reflect an increase in the scale of sexism for girls."</p>
+                <p>“The message could not be clearer from girls and young women about the seriousness of the issues they’re facing daily and the negative impact on their lives,” said Amanda Medler, Girlguiding’s chief guide. “Girls need to know when they speak out they will be heard.”</p>
+                <p>“So now is the time for action, to listen to girls and respond, and for all organisations, government, schools, and parents to work together to improve the lives of all girls and young women,” she added.</p>
+                <p>Previous Girlguiding campaigns include a voting drive — linked to a report on the impact of sexism in the media — and the launch of a period poverty badge, among others linked to equality, to press educational institutions to provide free sanitary products to students.</p>
+            </div>
+        </article>
+
+        <article id="article-12" class="art12">
+            <h2 class="ms-4">This Is What a Feminist 'Good Place' Looks Like</h2>
+            <h5 class="ms-4">“I think a feminist 'Good Place' looks like a place with equality.”</h5>
+            <div class="artimg">
+                <img  src="images/article12 img.jpg" alt="" width="600">
+            </div>
+            <div class="c_date m-4">
+                <div class="c_profile"><img src="images/femme voice cp.fw.png" alt=""></div>
+                <div><p>By <a href="">Adenekan Subomi</a> </p><p>march 20,2024</p></div>
+            </div>
+            <div>
+                <p>Prior to the pandemic — though can anyone really remember a world without it? — Kristen Bell congregated with grassroots feminist activists from 17 different countries in Vienna, Austria, to build a vision for a more inclusive, peaceful world.</p>
+                <p>The Veronica Mars and Frozen actress was there for a forum convening almost 100 gender equality advocates on Feb. 19 and 20. The mission: to come up with a plan on how to get more women involved in conflict resolution.</p>
+                <p>We already know that the secret to world peace is women. But Bell was at the Global Women’s Forum for Peace and Humanitarian Action to support the women working to make it happen.</p>
+                <p>The forum was hosted by the Women’s Peace and Humanitarian Fund (WPHF) — Bell is a Global Advocate for the United Nations entity — alongside a partnership with the Austrian Development Cooperation and the Global Network of Women Peacebuilders. </p>
+                <p>It was a busy time for saving the world. Just a few weeks earlier, Bell was waving farewell to the sweary heroine Eleanor Shellstrop, her lead character in The Good Place series finale.</p>
+                <p>That overlap is super-relevant because, at its absolute core, both The Good Place and the WPHF ask the same simple questions: What would a fair, just world look like? How can you be a good person? What does it take to leave the universe in a better shape than how you found it?</p>
+                <p>While Bell was in Vienna, we thought we’d ask her ourselves. From her perspective, what would a feminist “Good Place” look like?</p>
+                <p>Her answers — released to coincide World Humanitarian Day on Aug. 19 — were rooted in exactly what feminism is meant to be all about.</p>
+                <p>“I think a feminist ‘Good Place’ looks like a place with equality,” Bell told Global Citizen. “Because feminism isn’t about women being more important than men or more important than anyone else — it’s about being equal, equal representation, equal seats at the table, equal roles in leadership in their communities.”</p>
+                <p>“So a feminist ‘Good Place’ looks like a good place for everyone,” she added.</p>
+                <p>Bell feels like it’s her “duty” to lift up the stories of other women — and that starts with amplifying the work of the WPHF, a fund that gets more women involved in peacebuilding processes around the world.</p>
+                <p>It's gender equality that directly benefits everyone: According to UN Women, the probability of a peace deal being sustained over two years increases by 20% when women are negotiating — and it’s 35% more likely that the deal will last over 15 years.</p>
+                <p>But between 1992 and 2018, just 13% of peace negotiators, 3% of mediators, and 4% of signatories in major peace processes were women.</p>
+                <p>Bell continued: "We will never achieve the UN's Global Goals for Sustainable Development — the framework to end extreme poverty, tackle climate change, and reduce inequality by 2030 — if we don't push for gender equality, and build peace, justice, and strong institutions.”</p>
+                <p>"Women are imperative to peace," she said. "Period. It's past time for the world to support women peacebuilders and humanitarians across the globe."</p>
+                <p>“I think to empower women, you first have to look in the mirror and remind yourself that you are an empowered woman — and no matter what your skill set is, something in there can help someone else,” Bell told Global Citizen. “You have to look inside yourself to find your own skill set, become inspired by those around you, and be the support system of those around you.” </p>
+                <p>“Remind the women in your life that they can lean on you, that we’re all part of a team, and we can all accomplish this if we stick together.” </p>
+                <p>As 2020 marks the 20th anniversary of landmark UN Security Council Resolution 1325 — which called on countries to increase women’s participation in peacebuilding and protect women and girls from conflict — that solidarity has never been more important. </p>
+            </div>
+        </article>
+
+
+        <div class="art_sidebar">
+            <div class="">
+                <h2 class="">
+                    Subscribe for Updates🌟
+                </h2>
+                <p class="cta_p1">
+                    If you're passionate about feminism and love engaging stories that drive social change, then
+                    my blog is the perfect place for you. I share my thoughts, experiences, and insights on 
+                    feminism, aiming to inspire and amplify women's voices. Don't miss out on the latest updates 
+                    and empowering content—subscribe to my blog and follow me on social media. Together, we can 
+                    make a difference! 💪✨
+                </p>
+                <form class="flex flex-col">
+                    <input placeholder="Email" required="" type="text" class="flex-grow px-4 mb-3 rounded "/>
+                    <a href="/" class="cta_a1"> Subscribe</a>
+                </form>
+                <p class="cta_p2">
+                    You can follow me on all social media handles @femmiVoice.
+                </p>
+            </div>
+        </div>
+        <div class="comment-section">
+            <h3>What are thoughts?</h3>
+            <form id="commentForm">
+                <input type="text" id="userName" placeholder="Your Name" required>
+                <textarea id="userComment" placeholder="Your Comment" required></textarea>
+                <button type="button" id="submitComment">Submit</button>
+            </form>
+            <div id="commentsContainer">
+                <h3>Comments</h3>
+            </div>
+        </div>  
+    </div> 
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                <h5>Pages</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link footer_link p-0 ">Home</a></li>
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link footer_link p-0 ">Blog</a></li>
+                    <li class="nav-item mb-2"><a href="about2.html" class="nav-link footer_link p-0 ">About</a></li>
+                    <li class="nav-item mb-2"><a href="contact.html" class="nav-link footer_link p-0 ">Contact</a></li>
+                    <li class="nav-item mb-2"><a href="login.html" class="nav-link footer_link p-0 ">Sign in</a></li>
+                </ul>
+                </div>
+      
+                <div class="col-6 col-md-2 mb-3">
+                <h5>Posts</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link footer_link p-0 ">Popular</a></li>
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link footer_link p-0 ">Featured</a></li>
+                    <li class="nav-item mb-2"><a href="articles.html" class="nav-link footer_link p-0 ">Articles</a></li>
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link footer_link p-0 ">Recent</a></li>
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link footer_link p-0 ">Topics</a></li>
+                </ul>
+                </div>
+      
+                <div class="col-6 col-md-2 mb-3">
+                <h5>More</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="admin/posts/index.html" class="nav-link footer_link p-0 ">Admin</a></li>
+                    <li class="nav-item mb-2"><a href="admin/posts/create.html" class="nav-link footer_link p-0 ">Writter</a></li>
+                    <li class="nav-item mb-2"><a href="signUp.html" class="nav-link footer_link p-0 ">Sign up</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link footer_link p-0 ">resources</a></li>
+                    <li class="nav-item mb-2"><a href="about.html" class="nav-link footer_link p-0 ">About</a></li>
+                </ul>
+                </div>
+      
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <div class=""><img src="images/femme voice logo.fw.png" alt="" width="250px"></div>
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn1 btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+                </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 femmeVoice. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><span class="ic--baseline-whatsapp"></span></li>
+              <li class="ms-3"><span class="mdi--instagram"></span></li>
+              <li class="ms-3"><span class="ri--twitter-x-line"></span></li>
+              <li class="ms-3"><span class="ic--baseline-facebook"></span></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+    <script src="js/comment.js"></script> 
+    <script src="js/bootstrap.bundle.js"></script>
+    <script defer src="js/index.js"></script>
+</body>
+</html>

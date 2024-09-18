@@ -1,0 +1,280 @@
+.shooting{
+    width: 3px;
+    height: 3px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+}
+
+@keyframes shoot3 {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(100px, -100px);
+        opacity: 0;
+    }
+}
+
+.star {
+    top: 50%;
+    left: 50%;
+    animation: shoot3 2s infinite;
+}
+
+.star1 {
+    width: 3px;
+    height: 3px;
+    top: 40%;
+    left: 40%;
+    animation: shoot3 3s infinite;
+}
+
+.star2 {
+    width: 2px;
+    height: 3px;
+    top: 60%;
+    left: 60%;
+    animation: shoot3 5s infinite;
+}
+
+.star3 {
+    top: 70%;
+    left: 50%;
+    animation: shoot3 6s infinite;
+}
+
+.star4 {
+    top: 70%;
+    left: 80%;
+    animation: shoot3 6s infinite;
+}
+
+.star5 {
+    top: 90%;
+    left: 50%;
+    animation: shoot3 6s infinite;
+}
+
+.star6 {
+    top: 80%;
+    left: 70%;
+    animation: shoot3 14s infinite;
+}
+
+.star7 {
+    top: 30%;
+    left: 90%;
+    animation: shoot3 8s infinite;
+}
+
+.star8 {
+    top: 30%;
+    left: 30%;
+    animation: shoot3 17s infinite;
+}
+
+.star9 {
+    top: 40%;
+    left: 90%;
+    animation: shoot3 13s infinite;
+}
+
+.star10 {
+    width: 3px;
+    height: 3px;
+    top: 20%;
+    left: 20%;
+    animation: shoot3 16s infinite;
+}
+
+.star11 {
+    top: 30%;
+    left: 10%;
+    animation: shoot3 10s infinite;
+}
+
+.star12 {
+    width: 3px;
+    height: 3px;
+    top: 30%;
+    left: 20%;
+    animation: shoot3 10s infinite;
+}
+
+.star13 {
+    top: 30%;
+    left: 55%;
+    animation: shoot3 10s infinite;
+}
+
+.star14{
+    top: 66%;
+    left: 10%;
+    animation: shoot3 10s infinite;
+}
+
+.star15 {
+    width: 3px;
+    height: 3px;
+    top: 35%;
+    left: 15%;
+    animation: shoot3 10s infinite;
+}
+
+.star16 {
+    width: 3px;
+    height: 3px;
+    top: 85%;
+    left: 15%;
+    animation: shoot3 3s infinite;
+}
+
+.star17 {
+    width: 3px;
+    height: 3px;
+    top: 76%;
+    left: 15%;
+    animation: shoot3 10s infinite;
+}
+
+.star18 {
+    width: 3px;
+    height: 3px;
+    top: 44%;
+    left: 15%;
+    animation: shoot3 4s infinite;
+}
+
+.star19 {
+    width: 3px;
+    height: 3px;
+    top: 48%;
+    left: 70%;
+    animation: shoot3 10s infinite;
+}
+
+.star20 {
+    width: 3px;
+    height: 3px;
+    top: 58%;
+    left: 60%;
+    animation: shoot3 3s infinite;
+}
+
+.star21 {
+    width: 3px;
+    height: 3px;
+    top: 78%;
+    left: 60%;
+    animation: shoot3 7s infinite;
+}
+
+.star22 {
+    width: 3px;
+    height: 3px;
+    top: 28%;
+    left: 60%;
+    animation: shoot3 7s infinite;
+}
+
+.star23 {
+    width: 3px;
+    height: 3px;
+    top: 18%;
+    left: 50%;
+    animation: shoot3 7s infinite;
+}
+
+.star24 {
+    width: 3px;
+    height: 3px;
+    top: 38%;
+    left: 63%;
+    animation: shoot3 7s infinite;
+}
+
+.star25 {
+    width: 3px;
+    height: 3px;
+    top: 98%;
+    left: 60%;
+    animation: shoot 17s infinite;
+}
+
+.star26 {
+    width: 3px;
+    height: 3px;
+    top: 98%;
+    left: 50%;
+    animation: shoot 7s infinite;
+}
+
+.star27 {
+    width: 3px;
+    height: 3px;
+    top: 98%;
+    left: 60%;
+    animation: shoot 27s infinite;
+}
+
+.star28 {
+    width: 3px;
+    height: 3px;
+    top: 98%;
+    left: 45%;
+    animation: shoot 3s infinite;
+}
+
+.star29 {
+    width: 3px;
+    height: 3px;
+    top: 98%;
+    left: 20%;
+    animation: shoot 12s infinite;
+}
+
+.star30 {
+    width: 3px;
+    height: 3px;
+    top: 98%;
+    left: 30%;
+    animation: shoot 7s infinite;
+}
+
+@keyframes shoot {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(200px, -100px);
+        opacity: 0;
+    }
+}
+
+
+@media (max-width: 1000px){
+    @keyframes shoot {
+        0% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+        100% {
+            transform: translate(0px, -0px);
+            opacity: 0;
+        }
+    }
+    @keyframes shoot3 {
+        0% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+        100% {
+            transform: translate(0px, -0px);
+            opacity: 0;
+        }
+    }
+}
