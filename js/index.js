@@ -71,18 +71,6 @@ document.getElementById('loginButton').addEventListener('click', function() {
     }
 });
 
-document.getElementById('register').addEventListener('click', function() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    // For demo purposes, we're not doing real authentication.
-    if (username && password) {
-        // Redirect to topic selection page
-        window.location.href = 'topics.html';
-    } else {
-        alert('Please enter both username and password.');
-    }
-});
 
 document.getElementById('submitTopics').addEventListener('click', function() {
     const selectedTopics = Array.from(document.querySelectorAll('input[name="topics"]:checked'))
@@ -100,29 +88,6 @@ document.getElementById('submitTopics').addEventListener('click', function() {
 });
 
 
-window.addEventListener('load', function() {
-    const selectedTopics = JSON.parse(localStorage.getItem('selectedTopics')) || [];
-    const articlesDiv = document.getElementById('articles');
-
-    // Dummy articles for demonstration
-    const articles = {
-        Technology: ['Tech article 1', 'Tech article 2'],
-        Science: ['Science article 1', 'Science article 2'],
-        Health: ['Health article 1', 'Health article 2'],
-        Finance: ['Finance article 1', 'Finance article 2'],
-        Sports: ['Sports article 1', 'Sports article 2'],
-        Entertainment: ['Entertainment article 1', 'Entertainment article 2'],
-        Travel: ['Travel article 1', 'Travel article 2'],
-        Education: ['Education article 1', 'Education article 2']
-    };
-
-    selectedTopics.forEach(topic => {
-        const topicArticles = articles[topic];
-        const topicDiv = document.createElement('div');
-        topicDiv.innerHTML = `<h4>${topic}</h4><ul>${topicArticles.map(article => `<li>${article}</li>`).join('')}</ul>`;
-        articlesDiv.appendChild(topicDiv);
-    });
-});
 
 
 
