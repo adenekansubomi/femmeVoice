@@ -58,18 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-document.getElementById('loginButton').addEventListener('click', function() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    // For demo purposes, we're not doing real authentication.
-    if (username && password) {
-        // Redirect to topic selection page
-        window.location.href = 'topics.html';
-    } else {
-        alert('Please enter both username and password.');
-    }
-});
 
 
 document.getElementById('submitTopics').addEventListener('click', function() {
