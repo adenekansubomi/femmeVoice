@@ -1,5 +1,5 @@
  document.getElementById('sendBtn').addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
     
             const username = document.getElementById('username').value.trim();
             const email = document.getElementById('email').value.trim();
@@ -26,15 +26,19 @@
                 document.getElementById('errorMessage').innerHTML = errorMessage;
                 document.getElementById('errorModal').style.display = 'block';
             } else {
-                // Submit form or perform further actions if needed
+               
                 alert('Form submitted successfully!');
             }
         });
     
-        // Close modal when the user clicks on <span> (x)
         document.getElementById('closeModal').onclick = function() {
             document.getElementById('errorModal').style.display = 'none';
         }
     
-        // Close modal when the user clicks anywhere outside of the modal
+
         window.onclick = function(event) {
+            const modal = document.getElementById('errorModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
